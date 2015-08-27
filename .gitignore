@@ -1,1 +1,15 @@
+# Ignorar archivos de workflow
+
 node_modules
+node_modules/
+/.DS_Store
+/dist/assets/.DS_Store
+/dist/.DS_Store
+/dist/assets/js/.DS_Store
+/src/.DS_Store
+/src/less/.DS_Store
+/dist/assets/images/.DS_Store
+/dist/src/images/.DS_Store
+.DS_Store
+
+# /dist/inc/conf.php
