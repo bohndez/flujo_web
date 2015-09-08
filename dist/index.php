@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
 
-    <title>Moto G 3ra Generación</title>
+    <title>Título de la Página</title>
     <meta name="description" content="La descripción.">
 
     <!-- Redes - - - -->
