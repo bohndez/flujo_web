@@ -15,7 +15,7 @@ Uso
 $ sudo npm install --global gulp
 ```
 
- NOTA: si estás en mac o linux pudes necesitar anteponer sudo:
+ NOTA: si estás en mac o linux puedes necesitar anteponer sudo:
 
 - 3- Abre una terminal o CMD en la carpeta de tu proyecto.
 
@@ -62,4 +62,4 @@ MIT
 
 
 Boris Hernández.
-http://www.cajonarium.cl/
+[cajonarium.cl](http://www.cajonarium.cl/)
