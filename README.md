@@ -27,10 +27,6 @@ $ sudo npm install
 
 Éste comando instala los módulos necesarios para que funcione gulp.
 
-```sh
-$ sudo npm install
-```
-
 - 5- Para que comience a funcionar ejecuta gulp con el comando: "gulp".
 Listo.
 
