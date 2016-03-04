@@ -7,7 +7,7 @@ Estructura de carpetas típicas.
 
 Uso
 ---------------------
-- 1- Instala nodeJS
+- 1- Instala nodeJS.
 
 - 2- Instala gulp de forma local o global.
 

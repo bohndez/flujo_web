@@ -38,7 +38,7 @@
 
 
 <!-- Librerías - - - -->
-<script src="assets/js/libs/jquery-1.11.2.min.js"></script>
+<script src="assets/js/libs/jquery-1.12.1.min.js"></script>
 <!--[if (gte IE 6)&(lte IE 8)]>
 <script src="assets/js/libs/selectivizr.min.js"></script>
 <![endif]-->
