@@ -10,7 +10,6 @@ var gulp 		= require('gulp'),              // Automatiza las tareas.
 	concat 		= require('gulp-concat'),       // Toma el contenido de varios archivos y los deja en un único archivo.
 	uglify 		= require('gulp-uglify'),       // Comprime el código Javasscript.
 	less 		= require('gulp-less'),         // Procesa archivos ".less" y los deja como  ".css".
-	sass 		= require('gulp-sass'),         // Procesa archivos ".scss" y los deja como  ".css".
 	cleanCss 	= require('gulp-clean-css'),    // Minifica los archivos CSS.
 	notify 		= require('gulp-notify'),		// Lanza notificaciones del sistema operativo.
 	livereload 	= require('gulp-livereload'),   // Detecta si hubo cambios en los archivos y refresca el navegador si los hay.
@@ -29,17 +28,6 @@ var gulp 		= require('gulp'),              // Automatiza las tareas.
 		.pipe(rename({suffix: '.min'}))
 		.pipe(gulp.dest('dist/assets/css/'))
 		.pipe(notify({ message: 'Less listo!'}));
-	});
-
-	// Procesa y comprime los archivos SASS. - - -
-	gulp.task('sass', function () {
-		return gulp.src('src/sass/*.scss')
-		.pipe(less())
-		.on("error", notify.onError("<%= error.message %>"))
-		.pipe(cleanCss())
-		.pipe(rename({suffix: '.min'}))
-		.pipe(gulp.dest('dist/assets/css/'))
-		.pipe(notify({ message: 'Sass listo!'}));
 	});
 
 	// Minifica los archivos Javascript. - - -
