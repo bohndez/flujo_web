@@ -71,4 +71,4 @@ var gulp 		= require('gulp'),              // Automatiza las tareas.
 
 // LLAMADO A LAS TAREAS
 // --------------------
-gulp.task('default', ['less', 'sass', 'js', 'libs', 'images', 'watch']);
+gulp.task('default', ['less', 'js', 'libs', 'images', 'watch']);
